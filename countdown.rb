@@ -1,4 +1,7 @@
-#write your code here
+require 'pry'
+def countdown(num)
+  while num > 0
+    puts num
+    num -= 1
 
-def countdown
 end
